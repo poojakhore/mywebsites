@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FeedBack</title>
+      <style type="text/css">
+        body
+        {
+            padding:0;
+            margin:0;
+            line-height: 1.5em;
+            font-family: sans-serif;            
+            font-size: 11px;
+            background: #666666;
+        }
+        #container
+         {
+            width: 500px;
+            margin: auto;
+            background: #FFFFFF;
+            height: 140px;
+        }
+        #container h1
+        {
+            text-shadow: 2px 2px red; 
+            text-decoration:underline;
+            text-decoration-style:Wavy;
+            text-decoration-color:Green;
+            text-transform:Uppercase;
+            padding-top:30px;
+            font-style:italic;
+            font-size:40px;
+            font-weight:bold;      
+            text-align:center;
+            text-indent:10px;
+            letter-spacing:2px;
+            word-spacing:4px;       
+        }
+        #feed
+        {
+            border-radius: 5px;
+            background-color:#f2f2f2;
+            padding: 20px;
+        }
+        #back
+        {
+            border-radius: 5px;
+            background-color: #FAEBD7;
+            padding: 20px;
+            text-align:center;
+            font-size:20px;
+        }
+        #back a:active
+        {
+           background-color:Yellow;
+        }
+        input[type=text], select
+        {
+            text-transform:uppercase;
+            width:100%;
+            padding:12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius:4px;
+            box-sizing: border-box;       
+        }
+        textarea
+        {
+            text-transform:capitalize;
+            width:100%;
+            padding:12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius:4px;
+            box-sizing: border-box;       
+        }
+        input[type=email], select
+        {
+            width:100%;
+            padding:12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius:4px;
+            box-sizing: border-box;
+        }
+        input[type=submit]
+        {
+            width: 100%;
+            background-color: #4CAF50;
+            color: White;
+            padding: 14px 20px;
+            margin:8px 0;
+            border:none;
+            border-radius:4px;
+            cursor:pointer;
+            font-size:large;
+            font-family: Verdana;            
+        }
+        input-type=submit]:hover
+        {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+        <div id="container">
+            <h1>Feedback</h1>
+            <div id="feed">
+            <form action="feedback.htm">
+            <label style="font-family: Verdana; font-weight: bold;">Name</label> <input type="text"  name="name" /><br />
+            <label style="font-family: Verdana; font-weight: bold;">Email Id</label> <input type="email"  name="email" /><br />
+            <label style="font-family: Verdana; font-weight: bold;">Comment</label> <textarea name="comment" maxlength="100"></textarea>
+            <input type="submit" value="Submit" />
+            </form>
+            </div>
+            <div id="back"><a href="index.htm">Home</a></div>
+        </div>
+</body>
+</html>

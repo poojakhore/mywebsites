@@ -1,0 +1,221 @@
+﻿body 
+{
+    padding:0;
+    margin:0;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-size: 11px;
+    background: url(images/g4.jpeg) no-repeat;
+    background-position:center;
+}
+.menu
+{
+    margin: 0;
+    padding: 0;
+    float: left;
+    font: bold 16px Arial;
+    width: 100%;
+    background: black url(images/blockdefault.gif) center center repeat-x;
+    border-width: 1px 0;    
+}
+.menu li
+{
+    display:inline;
+}
+.menu li a
+ {
+     float:left;
+     color:White;
+     padding: 9px 11px;
+     text-decoration: none;
+     border-right: 1px solid white;
+ }
+ .menu li a:visited
+ {
+     color:white;
+ }
+  .menu li a:hover
+ {
+      color: white;
+      background-color:Maroon;
+ }
+ #content 
+ {
+      width: 800px;
+      height: 284px;
+      min-height:435px;      
+ }
+#content_left_column 
+ {       
+    background: #EEEEEE;
+    float: left;
+    width: 345px;
+    min-height: 408px;
+}
+#content_right_column 
+{
+    background: #EEEEEE;
+    float: left;
+    width: 455px;
+    min-height: 400px;    
+}
+#content_right_column .image img
+{
+    opacity:0.5; 
+    border-radius:200px;
+    border-color:blue;
+    border-style:solid;
+    border-width:4px;
+    width: 455px;
+    height:400px;        
+}
+#content_right_column  .image img:hover
+{
+    width: 500px;
+    height:450px;
+    opacity:0.9;
+    border:10px dotted green;
+}      
+#content_left_column .text_area 
+{
+    margin: 10px;
+} 
+#content_left_column .sub_title 
+{
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight:bold;
+}        
+ #content_left_column .section_box1
+  {
+    margin: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+#content_left_column .sub_title_mission 
+{
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #660000;
+}
+#content_left_column .section_box2
+{
+    margin: 10px;
+    padding: 10px;   
+    color: #FFFFFF;
+}
+#content_left_column .sub_title_link
+{
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #660000;
+} 
+.section_box2 a
+{
+    font-weight:bold;
+    color:Blue;
+    font-size:small;
+}
+.section_box2,a:link
+{
+    color:Red;
+}
+section_box2,a:visited
+{
+    color:Green;
+}
+.section_box2,a:hover
+{
+    color:Yellow;
+}
+.section_box2,a:active
+{
+    color:Blue;
+}
+#footer
+{
+    background-color:#556B2F;
+    color:Black;
+    
+}
+#footer a
+{
+    color:#00008B;
+    padding:10px;
+    font-size:15px;
+    
+}
+#footer .foot_content
+{
+    margin-left:200px;
+    line-height:50px;
+    padding-top:25px;
+}
+#footer .x1
+{
+    color:#A9A9A9;
+    font-weight:bold;
+    margin-left:580px;
+    padding-bottom:10px;
+}
+ input[type=text], select
+        {
+            width:100%;
+            padding:12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            boder: 1px solid #ccc;
+            border-radius:4px;
+            box-sizing: border-box;
+            text-transform:uppercase;
+        }
+        textarea
+        {
+            width:100%;
+            padding:12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            boder: 1px solid #ccc;
+            border-radius:4px;
+            box-sizing: border-box;
+            text-transform:capitalize;
+        }
+        input[type=number], select
+        {
+            width:100%;
+            padding:12px 20px;
+            margin: 8px 0;
+           display: inline-block;
+            border: 1px solid #ccc;
+            border-radius:4px;
+            box-sizing: border-box;
+        }
+        input[type=email], select
+        {
+            width:100%;
+            padding:12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            boder: 1px solid #ccc;
+            border-radius:4px;
+            box-sizing: border-box;
+        }
+        input[type=submit]
+        {
+            width: 100%;
+            background-color: #4CAF50;
+            color: White;
+            padding: 14px 20px;
+            margin:8px 0;
+            border:none;
+            border-radius:4px;
+            cursor:pointer;
+            font-size:large;
+            font-family: Verdana;            
+        }
+        input-type=submit]:hover
+        {
+            background-color: #45a049;
+        }        
