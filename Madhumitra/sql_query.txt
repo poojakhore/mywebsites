@@ -1,0 +1,9 @@
+SELECT * FROM customerorder WHERE customer_name='Prof. Sachin Khot' and order_date in ( select max(order_date) FROM customerorder WHERE customer_name='Prof. Sachin Khot' )
+
+SELECT itemname,sum(`qty`),unit FROM `customerorder`
+group by `itemname`,`unit`
+
+SELECT itemname,sum(`qty`),unit FROM `customerorder`  WHERE order_date between '2021-03-18' and '2021-03-24'
+group by `itemname`,`unit`
+
+      
